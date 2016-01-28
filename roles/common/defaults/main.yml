@@ -14,6 +14,8 @@ common:
   ntpd:
     servers: []
     #  - servertime.service.softlayer.com
+  serial_console:
+    enabled: True
   ssh_private_keys: []
   ssh:
     allow_from:
